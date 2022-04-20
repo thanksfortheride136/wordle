@@ -1,0 +1,126 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  /*outline: 1px solid red;*/
+  color: white;
+  text-align: center;
+  font-family: roboto;
+  font-weight: bold;
+  display: block;
+  font-size: 40px;
+  margin: auto;
+}
+
+hr {
+  border: 1px solid #5c5c5c;
+}
+
+.outercontainer {
+  /*outline: 1px solid red;*/
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boardcontainer {
+  /*border: 3px solid green;*/
+  display: inline-block;
+  align-items: center;
+}
+
+.tiles {
+  outline: 1px solid grey;
+  height: 75px;
+  width: 75px;
+  margin: 3px 3px 3px 3px;
+}
+
+.tilerow {
+  /*outline: 1px solid purple;*/
+  display: flex;
+  flex-direction: row;
+  /*border: 1px solid purple;*/
+}
+/*--------------------------------------------------------*/
+.bottomcontainer {
+  /*border: 1px solid red;*/
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.buttoncontainer {
+  /*border: 1px solid red;*/
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.buttons {
+  /*outline: 1px solid purple;*/
+  width: 40px;
+  height: 55px;
+  background-color: grey;
+  margin-right: 3px;
+  margin-bottom: 2px;
+  text-align: center;
+  item-align: center;
+  border-radius: 2px;
+}
+
+.buttons:hover,
+.submitbutton:hover {
+  background-color: #ababab;
+}
+
+.letters {
+  /*border: 1px solid red;*/
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  font-family: arial;
+  display: block;
+  margin-top: 13px;
+}
+
+.spaceletter {
+  /*border: 1px solid red;*/
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  font-family: arial;
+  display: block;
+  margin-top: 10px;
+}
+
+.buttonrow {
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+  item-align: center;
+  justify-content: center;
+}
+
+.submitbuttonrow {
+  display: flex;
+  flex-direction: row;
+  margin: 3px;
+  item-align: center;
+  justify-content: center;
+  height: 45px;
+}
+
+.submitbutton {
+  width: 200px;
+  background-color: grey;
+  border-radius: 5px;
+  text-align: center;
+  item-align: center;
+}
